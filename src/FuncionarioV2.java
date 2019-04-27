@@ -16,7 +16,8 @@ public class FuncionarioV2 {
         ativo = false;
     }    
     
-    void mostrar(){
-        system.out.println();
+    void mostra(){
+        System.out.println("Sistema Gerenciador de Funcionários do Banco do Heitor\n ****************************************************");
+        System.out.println("\nNome: "+nome+"\nRG: "+rg+"\nDepartamento: "departamento+"\nSalário: "+salario+"\nData de entrada: "+datadeentrada+"\nEstatus: "+ativo+"\n****************************************************");
     }
 }
