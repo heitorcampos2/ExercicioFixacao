@@ -6,7 +6,7 @@ public class TestaFuncionarioV1 {
         f1.rg = "16.859.547";
         f1.departamento = "Vendas";
         f1.salario = 1800.00;
-        f1.datadeentrada = "02/01/2019";
+        f1.dataDeEntrada = "02/01/2019";
         f1.ativo = true;
         /////////////////////////
         f1.bonifica(0.1); //aumenta salário em 10%
@@ -17,7 +17,7 @@ public class TestaFuncionarioV1 {
                             "\nRG: "+f1.rg+
                             "\nDepartamento: "+f1.departamento+
                             "\nSalário: "+f1.salario+
-                            "\nData de entrada: "+f1.datadeentrada+
+                            "\nData de entrada: "+f1.dataDeEntrada+
                             "\nEstatus: "+f1.ativo+"\n****************************************************");
     }
                        

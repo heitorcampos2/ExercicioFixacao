@@ -3,7 +3,7 @@ public class FuncionarioV1 {
     double salario;
     String nome;
     String departamento;
-    String datadeentrada;
+    String dataDeEntrada;
     String rg;
     boolean ativo = true; //cada funcioanrio cadastrado deve inicar como ativo
     

@@ -6,7 +6,11 @@ public class TestaFuncionarioV2 {
         f2.rg = "16.859.547";
         f2.departamento = "Gerente";
         f2.salario = 3900.00;
-        f2.datadeentrada = "05/03/2019";
+        f2.dataDeEntrada = "05/03/2019";
         f2.ativo = true;
-        f2.mostra();/*imprime os atributos*/
+        
+       
+        f2.mostrar();/*imprime os atributos*/
     }
+}
+    
