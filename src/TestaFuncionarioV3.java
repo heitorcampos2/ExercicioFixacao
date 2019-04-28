@@ -8,14 +8,13 @@ public class TestaFuncionarioV3 {
         f3.salario = 4900.00;
         f3.ativo = true;
         
-        f3.mostrar();
-        
         Data d = new Data();
         d.dia = 15;
         d.mes = 02;
-        d.ano = 2018;       
-
+        d.ano = 2018;  
         
-
-}
+        f3.mostra();
+        System.out.println("Data de entrada: "+d.dia+"/"+d.mes+"/"+d.ano);
+        
+     }
 }

@@ -19,13 +19,24 @@ public class TestaFuncionarioV4 {
         f5.ativo = true;
                 
        
-        f5.mostrar();/*imprime os atributos*/
+        f5.mostra();/*imprime os atributos*/
         /////////////////////////
         
-        Data d = new Data();
-        d.dia = 15;
-        d.mes = 02;
-        d.ano = 2018;
+        Data df4 = new Data();
+        df4.dia = 15;
+        df4.mes = 02;
+        df4.ano = 2018;  
+        
+        Data df5 = new Data();
+        df5.dia = 15;
+        df5.mes = 02;
+        df5.ano = 2018; 
+        
+        f4.mostra();
+        System.out.println("Data de entrada: "+df4.dia+"/"+df4.mes+"/"+df4.ano);
+        
+        f5.mostra();
+        System.out.println("Data de entrada: "+df5.dia+"/"+df5.mes+"/"+df5.ano);
         
         if(f4 equals(f5)){
         System.out.println("Iguais");

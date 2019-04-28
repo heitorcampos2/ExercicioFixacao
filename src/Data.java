@@ -3,7 +3,7 @@ public class Data {
         int mes;
         int ano;
         
-        void mostrar(){
-            System.out.println(dia+"/"+mes+"/"+ano);
-        }
+     //       void mostrar(){
+      //      System.out.println(dia+"/"+mes+"/"+ano);
+       // }
 }

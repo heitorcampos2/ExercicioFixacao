@@ -16,16 +16,14 @@ public class FuncionarioV4 {
         ativo = false;
     }    
     
-    void mostrar(){
-        System.out.println("Sistema Gerenciador de Funcionários do Banco do Heitor\n ****************************************************\nNome: "+
-               nome+"\nRG: "+
-               rg+"\nDepartamento: "+
-               departamento+"\nSalário: "+
-               salario+"\nData de entrada: "+
-               dataDeEntrada.dia+"/"+dataDeEntrada.mes+"/"+dataDeEntrada.ano+
-               ativo+"\n****************************************************");
-               
-       
+    void mostra(){
+     System.out.println("Sistema Gerenciador de Funcionários do Banco do Heitor\n ******************************************************");
+     System.out.println("Nome: "+nome);
+     System.out.println("RG: "+rg);
+     System.out.println("Departamento: "+departamento);
+     System.out.println("Salário: R$"+salario);
+  // dataDeEntrada.mostrar;
+     System.out.println("Status: "+ativo);
     }
     
     boolean equals(FuncionarioV4 outro){
