@@ -25,15 +25,21 @@ public class FuncionarioV4 {
   // dataDeEntrada.mostrar;
      System.out.println("Status: "+ativo);
     }
+    //////////////////////////////////////
+ /*  boolean equals(FuncionarioV4 outro){
+        if(this.nome.equals(outro.nome)){
+            if(this.rg.equals(outro.rg)){
+            return true;
+            }
+        return false;
+        }
+    }*/
+ /*   boolean equals(FuncionarioV4 outro){
+        if(this.nome.equals(outro.nome) && (this.rg.equals(outro.rg))){
+            return true;
+            }
+            return false;
+        }*/
+    /////////////////////////////////////    
+}    
     
-    boolean equals(FuncionarioV4 outro){
-        if(this.nome.equals(outro.nome)) {
-            if (this.rg.equals(outro.rg)){
-                return true;
-            }  
-         }  return false;
-        
-    }
-    
-    
-}

@@ -8,8 +8,7 @@ public class TestaFuncionarioV2 {
         f2.salario = 3900.00;
         f2.dataDeEntrada = "05/03/2019";
         f2.ativo = true;
-        
-       
+
         f2.mostrar();/*imprime os atributos*/
     }
 }

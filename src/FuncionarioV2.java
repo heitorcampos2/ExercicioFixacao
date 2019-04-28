@@ -22,7 +22,7 @@ public class FuncionarioV2 {
        System.out.println("Sistema Gerenciador de Funcionários do Banco do Heitor\n ****************************************************\nNome: "+
                nome+"\nRG: "+
                rg+"\nDepartamento: "+
-               departamento+"\nSalário: "+
+               departamento+"\nSalário: R$"+
                salario+"\nData de entrada: "+
                dataDeEntrada+"\nEstatus: "+
                ativo+"\n****************************************************");
