@@ -3,14 +3,12 @@ public class Produto {
     String nome;
     double preco;
     
-    void diminuir10(double p){
-        p = preco/10;
-        preco = preco - p;
+    void diminuir10(){
+        preco = preco - (preco * 0.10);
     }
     
-    void aumenta25(double p){
-        p =preco * 0.25;
-        preco = preco + p;
+    void aumenta25(){
+      preco = preco * 1.25;
     }
     
 }
