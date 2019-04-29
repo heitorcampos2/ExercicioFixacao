@@ -195,7 +195,7 @@ public class TestaTestes {
         }
         System.out.println(c);
     }*/
-    public static void main(String[] args){
+ /*   public static void main(String[] args){
         int x = 5;
         int b = 2;
         do{
@@ -207,5 +207,11 @@ public class TestaTestes {
         }while (x % 2 != 0);
           //     System.out.println(b);
         System.out.println(x);
+    }*/
+    public static void main(String[] args){
+        int x = 2;
+        double c = 5.8;
+        double a = (c + x) / 2;
+        System.out.println(a * a);
     }
 }
