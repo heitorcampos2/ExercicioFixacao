@@ -31,11 +31,12 @@ public class TestaFuncionarioV4 {
         f5.mostra();
         System.out.println("Data de entrada: "+df5.dia+"/"+df5.mes+"/"+df5.ano);
         ///////////////////////////////////////////////////////////////////////////////////////////////////////
-        if(f4.nome.equals(f5.nome)){
+         f4.equals(f5);
+     /*   if(f4.nome.equals(f5.nome)){
             if(f4.rg.equals(f5.rg)){
                     System.out.println("\nALERTA: Funcionário(a) " + f4.nome + " já cadastrado(a) no sistema[IGUAL]\n");
             }
-        }
+        }*/
         ///////////////////////////////////////////////////////////////////////////////////////////////////////
     }
 }

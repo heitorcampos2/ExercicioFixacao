@@ -40,6 +40,18 @@ public class FuncionarioV4 {
             }
             return false;
         }*/
+       boolean equals(FuncionarioV4 outro) {
+           
+       if(this.nome.equals(outro.nome) && (this.rg.equals(outro.rg))){
+           System.out.println("\nALERTA: Funcionário(a) " + this.nome + " já cadastrado(a) no sistema[IGUAL]\n");
+           return true;
+           
+       }
+       else {
+            return false;
+       }
+       }    
+    
     /////////////////////////////////////    
 }    
     
